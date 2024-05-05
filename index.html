@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon_characters.com</title>
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="main">
+        <section class="pokemon-section">
+            <div class="container pokemon-container">
+
+                <div class="pokemon-head">
+                    <div class="logo">
+                        <img class="pokemon-word" src="./logo-Pokemon.png">
+                        <!-- <h1 class="logo-heading">Pokemon_characters</h1> -->
+                    </div>
+                    <input type="text" placeholder="search..." class="search-input" onkeyup="search()" id="input">
+                </div>
+                
+                <img src="https://pngimg.com/uploads/pokeball/pokeball_PNG19.png" alt="loader" class="loader" width="300px">
+                <ul class="pokemon-list" id="pokemon-list">
+                     <!-- <li class="outline-box"> -->
+                        <!-- <div class="content-box">
+                            <div class="content-head">
+                                 <span class="pokemon-number">#1</span>
+                                <img class="pokemon-img"
+                                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png"
+                                    alt="pokemon">
+                            </div>
+                            <div class="content-footer">
+                                <h3 class="pokemon-name">b u l b a s a u r</h3>
+                                <div class="btns">
+                                    <button class="btn grass">g r a s s</button>
+                                    <button class="btn poison">p o i s o n</button> 
+                                </div>
+                            </div>
+                        </div> -->
+                    <!-- </li>   -->
+                </ul>
+
+            </div>
+        </section>
+
+        <div class="detail-modal" id="detail-modal">
+            <div class="overlay" id="overlay"></div>
+            <div class="info" id="info">
+                <!-- <div class="box-line">
+                    <div class="line11"></div>
+                </div> -->
+                <!-- <div class="line"></div> -->
+                    <div class="damages1" id="damages1">
+                            <h4 class="h">hp</h4>
+                            <h4 class="a">attack</h4>
+                            <h4 class="d">defense</h4>
+                            <h4 class="s-a">special-attack</h4>
+                            <h4 class="s-d">special-defense</h4>
+                            <h4 class="s">speed</h4>
+                    </div>
+                <!-- <div class="rang"></div>
+                <h1 style="text-align: center;">Pokemon nomi</h1>
+                <h4 class="pokemon-number1">#1</h4>
+                <h3 class="about">About</h3>
+                <h5 class="weight">Weight</h5>
+                <h5 class="height">Height</h5>
+                <h3 class="abilities">Abilities</h3>
+                <h4 class="overgrow">overgrow</h4>
+                <h4 class="chlorophyli">chlorophyli</h4>
+                <h3 class="baseStats">Base Stats</h3>
+                <img class="pokemon-img1"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png"
+                alt="pokemon">
+                <button class="btn-grass1">g r a s s</button>
+                <button class="btn-poison1">p o i s o n</button> 
+            </div> -->
+        </div>
+        </div>
+    </main>
+
+
+
+    <script src="./datalar.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
